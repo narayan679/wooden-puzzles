@@ -1,0 +1,94 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f8f9fa;
+}
+
+.new-section .bg-brown {
+    background-color: #A0522D;
+    padding: 40px 20px;
+}
+
+.new-section .underline {
+    text-decoration: underline;
+}
+
+.new-section .lead {
+    font-size: 1.5rem;
+    margin-bottom: 20px;
+}
+
+.new-section img {
+    width: auto;
+    height: auto;
+}
+
+
+.about{
+   padding :10px;
+   text-align: center;
+   background:#A0522D; 
+
+}
+.about h2{
+    font-size: 18px;
+    color:#fff;
+    font-weight: bolder;
+}
+
+
+
+.about-section {
+    background-color: #A0522D; /* Matching the background color in the image */
+    color: white;
+    padding: 50px 0;
+}
+
+.about-section h1 {
+    font-size: 4rem;
+    font-weight: bold;
+}
+
+.about-section p {
+    font-size: 1.2rem;
+}
+
+.about-section .btn {
+    margin-top: 20px;
+}
+
+
+.text-section {
+
+    background-color: #F8DED3; /* Slightly different shade for the text background */
+    padding: 200px 0 ;
+}
+
+.text-section h2 {
+    font-size: 2.5rem;
+    font-weight: bold;
+}
+
+.text-section p {
+    font-size: 1.5rem;
+}
+
+
+@media (max-width: 768px) {
+    .new-section .lead {
+        font-size: 1.2rem;
+    }
+
+    .new-section .bg-brown {
+        padding: 20px 10px;
+    }
+}
+
+@media (max-width: 576px) {
+    .new-section .lead {
+        font-size: 1rem;
+    }
+
+    .new-section .bg-brown {
+        padding: 10px 5px;
+    }
+}
